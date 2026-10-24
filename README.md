@@ -1,5 +1,7 @@
 Bookstore Database Analysis Using SQL
+
 Introduction
+
 This project focuses on analyzing bookstore data using SQL. It uses three datasets — Books.csv, Customers.csv, and Orders.csv — to explore book inventory, customer details, and order transactions. The sql_script.sql file defines the database tables and contains SQL queries used to retrieve and analyze the data.
 Objectives
 - Create relational tables for books, customers, and orders.
@@ -8,8 +10,11 @@ Objectives
 - Examine order quantities, order dates, and order amounts.
 - Calculate summary metrics such as total stock and total revenue.
 - Use joins and aggregate functions to explore relationships between customers, books, and orders.
+- 
 Analysis Performed
+
 Basic SQL Analysis
+
 - Retrieve books in the Fiction genre.
 - Find books published after 1950.
 - List customers from Canada.
@@ -21,6 +26,7 @@ Basic SQL Analysis
 - List the distinct genres available in the Books table.
 - Identify books with the lowest stock.
 - Calculate total revenue from all orders.
+- 
 Advanced SQL Analysis
 - Calculate the total quantity sold for each genre.
 - Find the average price of books in the Fantasy genre.
@@ -31,7 +37,9 @@ Advanced SQL Analysis
 - Identify cities associated with customers whose total order spending exceeds 30.
 - Find the customer with the highest total order spending.
 - Calculate estimated remaining stock by subtracting ordered quantities from the recorded stock.
+- 
 Key Insights
+
 The SQL queries are designed to help investigate the following areas:
 - Inventory: total stock, lowest-stock books, and estimated stock remaining after orders.
 - Book catalogue: available genres, publication years, book prices, and Fantasy book pricing.
@@ -39,7 +47,7 @@ The SQL queries are designed to help investigate the following areas:
 - Genre and author performance: quantities sold by genre and author.
 - Customer behavior: repeat orders, customer spending, and customer locations.
 - Order trends: orders placed during November 2023.
-Note: These are the areas the queries analyze. Specific numerical findings are not stated here because they have not been calculated from the CSV data in this README.
+
 Skills Used
 - SQL database and table creation
 - Primary keys and foreign key relationships
@@ -50,9 +58,11 @@ Skills Used
 - Combining tables with JOIN and LEFT JOIN
 - Using DISTINCT, subqueries, and COALESCE()
 - Filtering dates with YEAR() and MONTH()
-- Relational data analysis and business-question formulation
+- Relational data analysis and business-question formulation.
+- 
 Conclusion
 This project demonstrates how SQL can be used to explore bookstore data across books, customers, and orders. The queries cover inventory analysis, book and genre comparisons, order summaries, revenue calculations, and customer purchasing behavior. Together, these analyses provide a foundation for understanding bookstore operations and practicing relational database querying.
+
 Project Files
 - Books.csv — book catalogue and inventory data
 - Customers.csv — customer information
